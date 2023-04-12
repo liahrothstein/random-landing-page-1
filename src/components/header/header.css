@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Proxima-Nova;
+    src: url('../../fonts/proximanova_bold.otf');
+}
+
+@font-face {
+    font-family: Averta-Demo;
+    src: url('../../fonts/averta-demo-pe-cutted-demo-regular.ttf');
+}
+
+section.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+section.header div.logo {
+    font-family: 'Averta-Demo';
+    font-size: 27.1472px;
+    line-height: 33.55px;
+    font-weight: 400;
+}
+
+section.header div.logo span.a {
+    font-family: 'Proxima-Nova';
+    line-height: 33px;
+    font-weight: 700;
+}
+
+section.header div.links {
+    display: flex;
+    gap: 60px;
+}
+
+section.header div.links a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
