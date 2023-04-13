@@ -11,6 +11,7 @@
 section.footer {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 107px;
     border-top: 1px solid #E4E4E4;
 }
 
@@ -84,6 +85,7 @@ section.footer div.copyrights div.text {
     font-size: 14px;
     line-height: 160%;
     color: #A4A4A4;
+    text-align: center;
 }
 
 section.footer div.container div.whatWeDo {

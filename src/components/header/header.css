@@ -15,6 +15,7 @@ section.header {
     width: 1200px;
     margin: 0 auto;
     margin-top: 42px;
+    margin-bottom: 40px;
 }
 
 section.header div.logo {
