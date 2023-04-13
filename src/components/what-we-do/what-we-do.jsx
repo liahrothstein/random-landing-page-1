@@ -2,10 +2,10 @@ import { Footer } from '../footer/footer';
 import { Header } from '../header/header';
 import { OurClients } from '../our-clients/our-clients';
 
-import dots from '../../assets/dots.png'
-import ellipse from '../../assets/ellipse.png'
-import rectangle from '../../assets/rectangle.png'
-import whatWeDo from '../../assets/what-we-do.png'
+import dots from '../../assets/dots.png';
+import ellipse from '../../assets/ellipse.png';
+import rectangle from '../../assets/rectangle.png';
+import whatWeDo from '../../assets/what-we-do.png';
 
 import './what-we-do.css';
 
