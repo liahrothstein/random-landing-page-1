@@ -6,6 +6,7 @@ import App from './App';
 import { WhatWeDo } from './components/what-we-do/what-we-do';
 import { Service } from './components/service/service';
 import { Project } from './components/project/project';
+import { Blog } from './components/blog/blog';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
         <Route path='/wwd' element={<WhatWeDo />} />
         <Route path='/service' element={<Service />} />
         <Route path='/project' element={<Project />} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
