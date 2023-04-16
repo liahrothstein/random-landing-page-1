@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/random-landing-page-1/static/css/main.1536a2ed.css",
+    "main.js": "/random-landing-page-1/static/js/main.578b557c.js",
+    "static/js/787.b3b426e3.chunk.js": "/random-landing-page-1/static/js/787.b3b426e3.chunk.js",
+    "static/media/what-we-do.png": "/random-landing-page-1/static/media/what-we-do.ade82ce9ff95eaa9e63d.png",
+    "static/media/video.png": "/random-landing-page-1/static/media/video.feb5167955dffe625c5f.png",
+    "static/media/main-client.png": "/random-landing-page-1/static/media/main-client.246a449546f4c4dba94b.png",
+    "static/media/proximanova_bold.otf": "/random-landing-page-1/static/media/proximanova_bold.fcaab2524c5baabd71f6.otf",
+    "static/media/averta-demo-pe-cutted-demo-regular.ttf": "/random-landing-page-1/static/media/averta-demo-pe-cutted-demo-regular.2c6978c607224a475686.ttf",
+    "static/media/client1.png": "/random-landing-page-1/static/media/client1.776439ca94e5f7aaf10a.png",
+    "static/media/client8.png": "/random-landing-page-1/static/media/client8.41fd27a5e6f88526f025.png",
+    "static/media/client6.png": "/random-landing-page-1/static/media/client6.4caa35f2ab0d6206c6d9.png",
+    "index.html": "/random-landing-page-1/index.html",
+    "main.1536a2ed.css.map": "/random-landing-page-1/static/css/main.1536a2ed.css.map",
+    "main.578b557c.js.map": "/random-landing-page-1/static/js/main.578b557c.js.map",
+    "787.b3b426e3.chunk.js.map": "/random-landing-page-1/static/js/787.b3b426e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1536a2ed.css",
+    "static/js/main.578b557c.js"
+  ]
+}
