@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Footer } from '../footer/footer';
 import { Header } from '../header/header';
 import { OurClients } from '../our-clients/our-clients';
@@ -19,7 +21,9 @@ export const WhatWeDo = () => {
                     <div className="description">
                         <div className="header">A Digital Product Agency</div>
                         <div className="text">Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</div>
-                        <button type='button'>Contact Now</button>
+                        <Link to='/contact'>
+                            <button type='button'>Contact Now</button>
+                        </Link>
                     </div>
                     <div className="mainImg">
                         <img src={whatWeDo} alt="What We Do" />

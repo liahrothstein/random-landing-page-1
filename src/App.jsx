@@ -7,6 +7,7 @@ function App() {
   return (
     <section className="App">
       <Header />
+      <div className="mainContainer">Here is nothing<br />Click on the Nav Bar</div>
       <Footer />
     </section>
   );
