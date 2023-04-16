@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Averta-Demo;
+    src: url('../../fonts/averta-demo-pe-cutted-demo-regular.ttf');
+}
+
+section.whatWeDo div.mainContainer {
+    width: 1200px;
+    min-height: 608px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section.whatWeDo div.mainContainer div.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.whatWeDo div.mainContainer div.main img.dots {
+    position: absolute;
+    left: 0;
+    bottom: 101px;
+    z-index: -1;
+}
+
+section.whatWeDo div.mainContainer div.main div.mainImg {
+    position: relative;
+}
+
+section.whatWeDo div.mainContainer div.main div.mainImg img:first-child {
+    position: relative;
+    z-index: 2;
+}
+
+section.whatWeDo div.mainContainer div.main div.mainImg img.rectangle {
+    position: absolute;
+    bottom: -96px;
+    right: 120px;
+}
+
+section.whatWeDo div.mainContainer div.main div.mainImg img.ellipse {
+    position: absolute;
+    top: 0;
+    left: -64.5px;
+}
+
+section.whatWeDo div.mainContainer div.main div.description {
+    width: 471px;
+    height: 265px;
+}
+
+section.whatWeDo div.mainContainer div.main div.description div.header {
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 40px;
+}
+
+section.whatWeDo div.mainContainer div.main div.description div.text {
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    margin-bottom: 33px;
+}
+
+section.whatWeDo div.mainContainer div.main div.description button {
+    background: #2639ED;
+    border-radius: 60px;
+    border: none;
+    width: 215px;
+    height: 65px;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    cursor: pointer;
+}

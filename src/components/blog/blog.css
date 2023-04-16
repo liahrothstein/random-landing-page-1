@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Averta-Demo;
+    src: url('../../fonts/averta-demo-pe-cutted-demo-regular.ttf');
+}
+
+section.blog div.mainContainer {
+    width: 1264px;
+    min-height: 597px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section.blog div.mainContainer div.header {
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+section.blog div.mainContainer div.header div.text {
+    margin-bottom: 17px;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+section.blog div.mainContainer div.header div.description {
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #757575;
+}
+
+section.blog div.mainContainer div.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.blog div.mainContainer div.main div.mainImg {
+    margin-left: 10px;
+}
+
+section.blog div.mainContainer div.main div.mainImg img {
+    filter: drop-shadow(10px 20px 50px rgba(0, 0, 0, 0.15));
+    border-radius: 500px 0px 500px 500px;
+}
+
+section.blog div.mainContainer div.main div.description {
+    width: 412px;
+}
+
+section.blog div.mainContainer div.main div.description div.header {
+    margin-bottom: 21px;
+    text-align: left;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+section.blog div.mainContainer div.main div.description div.text {
+    margin-bottom: 40px;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+}
+
+section.blog div.mainContainer div.main div.description div.pagination {
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.blog div.mainContainer div.main div.description div.pagination img {
+    cursor: pointer;
+}
+
+section.blog div.mainContainer div.main div.miniImages {
+    position: relative;
+    width: 348px;
+    height: 355px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client1"] {
+    position: absolute;
+    top: 107px;
+    right: 104px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client2"] {
+    position: absolute;
+    top: 0;
+    left: 137px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client3"] {
+    position: absolute;
+    top: 63px;
+    right: 45px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client4"] {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client5"] {
+    position: absolute;
+    bottom: 60px;
+    right: 54px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client6"] {
+    position: absolute;
+    bottom: 0;
+    left: 98px;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client7"] {
+    position: absolute;
+    bottom: 84px;
+    left: 0;
+}
+
+section.blog div.mainContainer div.main div.miniImages img[alt="client8"] {
+    position: absolute;
+    top: 58px;
+    left: 0;
+}
+
+section.blog div.mainContainer div.main img.miniDots {
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+    top: 166px;
+}
+
+section.blog div.mainContainer div.main img.yellowEllipse {
+    position: absolute;
+    z-index: -1;
+    bottom: 98px;
+    right: 143px;
+}
+
+section.blog div.mainContainer div.main img.pinkEllipse {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 12px;
+}

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Proxima-Nova;
+    src: url('../../fonts/proximanova_bold.otf');
+}
+
+@font-face {
+    font-family: Averta-Demo;
+    src: url('../../fonts/averta-demo-pe-cutted-demo-regular.ttf');
+}
+
+section.footer {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 107px;
+    border-top: 1px solid #E4E4E4;
+}
+
+section.footer div.container {
+    margin-top: 63px;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+    gap: 106px;
+    text-align: left;
+}
+
+section.footer div.container div.logoAndText {
+    max-width: 270px;
+    padding-right: 85px;
+}
+
+section.footer div.container div.logoAndText div.logo {
+    margin-bottom: 26px;
+    font-family: 'Averta-Demo';
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+section.footer div.container div.logoAndText div.logo span.a {
+    font-family: 'Proxima-Nova';
+    font-weight: 700;
+}
+
+section.footer div.container div.logoAndText div.text {
+    margin-bottom: 40px;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #565656;
+}
+
+section.footer div.container div.logoAndText div.socials {
+    display: flex;
+    gap: 16px;
+}
+
+section.footer div.container div.header {
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+
+section.footer div.container div.links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+section.footer div.copyrights {
+    border-top: 1px solid #F1F1F1;
+}
+
+section.footer div.copyrights div.text {
+    margin-top: 17px;
+    margin-bottom: 23px;
+    font-family: 'Averta-Demo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #A4A4A4;
+    text-align: center;
+}
+
+section.footer div.container div.whatWeDo {
+    padding-right: 14px;
+}
